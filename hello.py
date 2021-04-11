@@ -117,4 +117,4 @@ F1 =(2 * precision * recall)/(precision + recall)
 # 计算accuracy
 accuracy = (TP+TN)/(TP+TN+FP+FN)
 auc = BinaryClassificationEvaluator(labelCol='labels').evaluate(Predictions)
-print(" f1:%1.2f\n accuracy%1.2f\n Precision:%1.2f\n Recall:%1.2f\n auc:%1.2f "%(F1,accuracy,precision,recall,auc))
+print(" f1:%1.2f\n accuracy%1.2f\n Precision:%1.2f\n Recall:%1.2f\n auc:%1.2f " % (F1, accuracy, precision, recall, auc))
